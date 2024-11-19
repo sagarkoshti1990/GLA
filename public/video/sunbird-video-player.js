@@ -166303,6 +166303,7 @@ var QumlLibraryService = /*#__PURE__*/function () {
           mode: this.context.mode,
           host: this.context.host || '',
           endpoint: this.context.endpoint || '/data/v3/telemetry',
+          apislug: this.context.apislug || '',
           tags: this.context.tags,
           cdata: (this.context.cdata || []).concat([{
             id: this.contentSessionId,
